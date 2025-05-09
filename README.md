@@ -1,6 +1,6 @@
-# Skrif
+# skrif
 
-Skrif is a revolutionary open-source programming language designed for unparalleled human readability, aiming to outshine Python by 2030. With a natural language-like syntax, Skrif is versatile for web, games, VR, AI, ML, and more.
+skrif is a revolutionary open-source programming language designed for unparalleled human readability, aiming to outshine Python by 2030. With a natural language-like syntax, skrif is versatile for web, games, VR, AI, ML, and more. Developed by the skriflang organization, skrif uses the .skr file extension and compiles initially to JavaScript.
 
 ## Vision
 - **Readability**: Code as intuitive as prose.
@@ -16,6 +16,6 @@ Skrif is a revolutionary open-source programming language designed for unparalle
 - 2025-2026: Build core compiler (JavaScript target).
 - 2026-2030: Expand to games, VR, AI/ML with WebAssembly and native support.
 
-Join us to shape the future of programming!
+Join us to shape the future of programming with skrif!
 
-Licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE) by skriflang.
