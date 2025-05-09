@@ -1,7 +1,7 @@
 # Skrif Development Log: Day 1 (May 9, 2025)
 
 ## Tasks Completed
-- Registered skrif.org: Completed (via [registrar,Namecheap])
+- Registered skrif.org: Completed (via Namecheap)
 - Secured @Skrif handles: Completed (Twitter, Instagram, GitHub, Reddit, YouTube)
 - Created Discord server: Completed (https://discord.gg/ctPxDGeB)
 - Installed tools: Completed (Python 3.13.3, SLY 0.5, Git 2.49.0, VS Code 1.100.0)
@@ -17,23 +17,10 @@
 
 ## Key Outputs
 - Domain: skrif.org
-- Social Handles: @Skrif on Twitter, Instagram, GitHub, Reddit, YouTube
+- Social Handles: @Skrif on X.com, Dev.to, GitHub, Reddit, Discord, Youtube
 - Discord: https://discord.gg/ctPxDGeB
-- GitHub: [github.com/SkrifLang/skrif](https://github.com/SkrifLang/skrif)
+- GitHub: [github.com/Skriflang/skrif](https://github.com/Skriflang/skrif)
 - Installed: Python 3.13.3, SLY 0.5, Git 2.49.0, VS Code 1.100.0
-
-## Alignment with Skrif’s Vision
-Today’s tasks established Skrif’s foundation, setting up the repo, branding, and community channels to build a human-readable, versatile language to outshine Python by 2030. The Discord server, MIT License (under SkrifLang), and Git configuration lay the groundwork for collaboration and monetization.
-
-## Time Spent
-~2.5-3 hours (due to PowerShell directory issues, Git configuration, and file creation)
-
-## Key Outputs
-- Domain: [skrif.org or alternative, or "Pending"]
-- Social Handles: [List @Skrif handles, or "Pending"]
-- Discord: https://discord.gg/ctPxDGeB
-- GitHub: [github.com/SkrifLang/skrif](https://github.com/SkrifLang/skrif)
-- Installed: [e.g., Python 3.8+, SLY/Lark, Git, VS Code, or "Pending"]
 
 ## Alignment with Skrif’s Vision
 Today’s tasks established Skrif’s foundation, setting up the repo, branding, and community channels to build a human-readable, versatile language to outshine Python by 2030. The Discord server, MIT License (under SkrifLang), and Git configuration lay the groundwork for collaboration and monetization.
