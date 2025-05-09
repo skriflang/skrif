@@ -5,7 +5,7 @@ Skrif is a revolutionary open-source programming language designed for unparalle
 ## Vision
 - **Readability**: Code as intuitive as prose.
 - **Versatility**: Compile to JavaScript, WebAssembly, and native binaries.
-- **Community**: Open-source under MIT License, join us on [Discord](https://discord.gg/ctPxDGeB).
+- **Community**: Open-source under MIT License, join us on [Discord](https://discord.gg/skriflang).
 
 ## Getting Started
 - Install: Coming soon!
