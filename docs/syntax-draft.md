@@ -9,8 +9,8 @@
 
 ### Variables
 - Syntax: `set [name] to [value]`
-- Example: `set x to 5`
-- Rationale: Reads like English, clearer than Python’s `x = 5` for beginners.
+- Example: set x to 5 set name to "Alice"
+- Rationale: The phrase `set ... to` reads like plain English, making it more intuitive for non-programmers than Python’s `x = 5`. It’s explicit and clear, reducing ambiguity for beginners.
 
 ### Functions
 - Syntax: `define function [name]([parameters]) do [body] end`
@@ -20,8 +20,9 @@
 ### Web Routes
 - Syntax: `define route [method] '[path]' do [body] end`
 - Example: define route get '/users' do return "User list" end
-- Rationale: Intuitive for web developers, aligns with JavaScript ecosystem (Node.js).
+- Rationale: This syntax is intuitive for web developers, resembling frameworks like Express.js. It supports skrif’s initial compilation to JavaScript, integrating with Node.js for web applications.
 
 ## Next Steps
-- Test syntax with a lexer using Python/SLY.
-- Share with community on Discord (https://discord.gg/ctPxDGeB) for feedback.
+- Test syntax with a lexer using Python/SLY to validate parsing.
+- Share with the community on Discord (https://discord.gg/ctPxDGeB) for feedback.
+- Expand syntax for conditionals, loops, and AI/ML use cases in future iterations.
