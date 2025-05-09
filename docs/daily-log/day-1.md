@@ -2,7 +2,7 @@
 
 ## Tasks Completed
 - Registered skrif.org: Completed (via Namecheap)
-- Secured @Skrif handles: Completed (Twitter, Instagram, GitHub, Reddit, YouTube)
+- Secured @Skrif handles: Completed (X.com, Dev.to, Discord, Instagram, GitHub, Reddit, YouTube)
 - Created Discord server: Completed (https://discord.gg/ctPxDGeB)
 - Installed tools: Completed (Python 3.13.3, SLY 0.5, Git 2.49.0, VS Code 1.100.0)
 - Created GitHub repo (github.com/SkrifLang/skrif) with README, LICENSE, CONTRIBUTING.md, and folder structure.
@@ -12,18 +12,20 @@
 - Failed to navigate to ~/Projects (directory didn’t exist). Created it with `mkdir ~/Projects` and retried `cd ~/Projects`.
 - Failed to create directories with `mkdir src docs docs/daily-log` in PowerShell due to argument error. Fixed by running `mkdir src`, `mkdir docs`, `mkdir docs\daily-log` separately.
 - Initially used "skrif" in LICENSE copyright notice; updated to "SkrifLang" to align with GitHub organization. Renamed file from `license` to `LICENSE`.
-- Git commit failed due to missing user identity. Fixed by running `git config --global user.name "Jan Strydom"` and `git config --global user.email "your.email@example.com"`.
+- Git commit failed due to missing user identity. Fixed by running `git config --global user.name "Jan Strydom"` and `git config --global user.email "skrif.org@gmail.com"`.
 - Failed to add `docs/daily-log/day-1.md` because the file was missing. Created it in `docs\daily-log` using VS Code.
+- SSH key generation failed due to invalid file path input. Regenerated key with default path and added to GitHub.
+- SSH agent setup failed due to missing `Start-SshAgent`. Fixed by running PowerShell as administrator and enabling OpenSSH agent with `Start-Service ssh-agent`.
 
 ## Key Outputs
 - Domain: skrif.org
-- Social Handles: @Skrif on X.com, Dev.to, GitHub, Reddit, Discord, Youtube
+- Social Handles: @Skrif on X.com, Dev.to, Discord, Instagram, GitHub, Reddit, YouTube
 - Discord: https://discord.gg/ctPxDGeB
-- GitHub: [github.com/Skriflang/skrif](https://github.com/Skriflang/skrif)
+- GitHub: [github.com/SkrifLang/skrif](https://github.com/SkrifLang/skrif)
 - Installed: Python 3.13.3, SLY 0.5, Git 2.49.0, VS Code 1.100.0
 
 ## Alignment with Skrif’s Vision
-Today’s tasks established Skrif’s foundation, setting up the repo, branding, and community channels to build a human-readable, versatile language to outshine Python by 2030. The Discord server, MIT License (under SkrifLang), and Git configuration lay the groundwork for collaboration and monetization.
+Today’s tasks established Skrif’s foundation, setting up the repo, branding, and community channels to build a human-readable, versatile language to outshine Python by 2030. The Discord server, MIT License (under SkrifLang), and SSH authentication lay the groundwork for collaboration and monetization.
 
 ## Time Spent
-~2.5-3 hours (due to PowerShell directory issues, Git configuration, and file creation)
+~3-3.5 hours (due to PowerShell directory issues, Git configuration, SSH setup, and file creation)
