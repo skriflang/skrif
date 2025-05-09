@@ -7,17 +7,17 @@
 - Documented progress in this log.
 
 ## Challenges and Solutions
-- [e.g., Lexer parsing errors, fixed by adjusting regex]
-- [e.g., Project board setup confusion, resolved via GitHub docs]
+- Encountered SLY lexer error due to incorrect regex, fixed by updating NAME pattern
+- GitHub Project board permissions unclear, resolved via GitHub documentation
 
 ## Key Outputs
 - Syntax Draft: docs/syntax-draft.md
 - Lexer Test: src/lexer_test.py
-- Project Board: [https://github.com/users/skriflang/projects/1/views/1]
+- Project Board: [https://github.com/users/skriflang/projects/1/views/2]
 - GitHub: [github.com/skriflang/skrif](https://github.com/skriflang/skrif)
 
 ## Alignment with skrif’s Vision
-Today’s tasks advanced skrif’s core design, defining a readable syntax to rival Python and setting up project tracking for community collaboration. The lexer test proves feasibility for compiling to JavaScript, supporting web development goals.
+Today’s tasks advanced skrif’s core design, defining a readable syntax to rival Python and setting up project tracking for community collaboration. The lexer test proves feasibility for compiling to JavaScript, supporting skrif’s initial web development focus.
 
 ## Time Spent
 ~2 hours
