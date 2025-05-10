@@ -84,8 +84,8 @@ Week 1 initialized the Skrif project, defined core syntax, set up project tracki
 - Parser: src/parser_test.py
 - Changelog: CHANGELOG.md
 - Weekly Log: docs/weekly-log/week-1.md
-- Project Board: [github.com/skriflang/skrif/projects/9](https://github.com/skriflang/skrif/projects/9)
-- GitHub: [github.com/skriflang/skrif](https://github.com/skriflang/skrif)
+- Project Board: [github.com/users/skriflang/projects/9]
+- GitHub: [github.com/skriflang/skrif]
 
 ### Time Spent
 ~2 hours
