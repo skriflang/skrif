@@ -22,7 +22,18 @@
 - Example: define route get '/users' do return "User list" end
 - Rationale: This syntax is intuitive for web developers, resembling frameworks like Express.js. It supports skrif’s initial compilation to JavaScript, integrating with Node.js for web applications.
 
+### Conditionals
+- Syntax: `if [condition] then [body] end` or `if [condition] then [body] else [body] end`
+- Example: if x greater than 5 then set result to "Large" else set result to "Small" end
+- Rationale: `if ... then ... else ... end` is explicit and readable, avoiding Python’s `if ...:` and indentation ambiguity for beginners.
+
+### Loops
+- Syntax: `repeat while [condition] do [body] end`
+- Example: set count to 0 repeat while count less than 5 do set count to count + 1 print count end
+- Rationale: `repeat while ... do ... end` clearly signals repetition, improving clarity over Python’s `while ...:`.
+
 ## Next Steps
-- Test syntax with a lexer using Python/SLY to validate parsing.
-- Share with the community on Discord (https://discord.gg/ctPxDGeB) for feedback.
-- Expand syntax for conditionals, loops, and AI/ML use cases in future iterations.
+- Update lexer to parse conditionals and loops using Python/SLY.
+- Develop a basic parser to validate conditional syntax.
+- Share with community on Discord (https://discord.gg/ctPxDGeB) for feedback.
+- Expand syntax for arrays, objects, and AI/ML constructs.
