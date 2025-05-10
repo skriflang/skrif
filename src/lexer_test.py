@@ -26,7 +26,6 @@ if __name__ == "__main__":
     set x to 5
     if x greater than 3 then
       print x
-    end
     """
     for token in lexer.tokenize(code):
         print(f"Type: {token.type}, Value: {token.value}")
