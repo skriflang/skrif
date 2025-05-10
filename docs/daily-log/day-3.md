@@ -14,6 +14,7 @@
 - Syntax Draft: docs/syntax-draft.md
 - Lexer: src/lexer_test.py
 - Parser: src/parser_test.py
+- Package: src/__init__.py
 - Project Board: [https://github.com/skriflang/skrif/projects/9]
 - GitHub: [https://github.com/skriflang/skrif]
 
