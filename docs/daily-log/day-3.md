@@ -8,6 +8,7 @@
 
 ## Challenges and Solutions
 - Fixed Project board 404 error by creating a public, repository-scoped board at github.com/skriflang/skrif/projects/1, replacing organization-scoped board after multiple attempts.
+- Encountered 'No such file or directory' error in Git Bash when running python src/parser_test.py due to incorrect working directory (C:\Program Files\Git). Fixed by changing to project directory (C:\Users\JanStrydom\Projects\skrif) and confirming file paths.
 
 ## Key Outputs
 - Syntax Draft: docs/syntax-draft.md
