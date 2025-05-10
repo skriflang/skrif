@@ -32,6 +32,21 @@
 - Example: set count to 0 repeat while count less than 5 do set count to count + 1 print count end
 - Rationale: `repeat while ... do ... end` clearly signals repetition, improving clarity over Python’s `while ...:`.
 
+### Arrays
+- Syntax: `create array [name] with [elements]`
+- Example: create array numbers with [1, 2, 3] create array names with ["Alice", "Bob"]
+- Rationale: `create array ... with` is explicit and readable, using square brackets for JavaScript familiarity.
+
+### Objects
+- Syntax: `create object [name] with { [key]: [value], ... }`
+- Example: create object user with { name: "Alice", age: 25 }
+- Rationale: `create object ... with` is descriptive, mirroring JSON for web compatibility.
+
+## Next Steps
+- Update lexer/parser for arrays and objects.
+- Share with community on Discord (https://discord.gg/ctPxDGeB).
+- Explore error handling and async syntax.
+
 ## Next Steps
 - Update lexer to parse conditionals and loops using Python/SLY.
 - Develop a basic parser to validate conditional syntax.

@@ -24,20 +24,37 @@ class SkrifParser(Parser):
         self.names[p.NAME] = int(p.NUMBER)
         return ('set', p.NAME, p.NUMBER)
 
-    @_('IF NAME GREATER NUMBER THEN PRINT print_name END')
+    @_('IF condition THEN PRINT print_name END')
     def statement(self, p):
-        if self.names.get(p.NAME, 0) > int(p.NUMBER):
-            return ('print', p.print_name, self.names[p.print_name])
+        if p.condition:
+            return ('print', p.print_name, self.names.get(p.print_name, 0))
         return None
+
+    @_('NAME GREATER NUMBER')
+    def condition(self, p):
+        return self.names.get(p.NAME, 0) > int(p.NUMBER)
 
     @_('NAME')
     def print_name(self, p):
         return p.NAME
 
+    @_('CREATE ARRAY NAME WITH LBRACKET number_list RBRACKET')
+    def statement(self, p):
+        self.names[p.NAME] = p.number_list
+        return ('array', p.NAME, p.number_list)
+
+    @_('NUMBER')
+    def number_list(self, p):
+        return [int(p.NUMBER)]
+
+    @_('NUMBER COMMA number_list')
+    def number_list(self, p):
+        return [int(p.NUMBER)] + p.number_list
+
 if __name__ == "__main__":
     lexer = SkrifLexer()
     parser = SkrifParser()
-    code = "set x to 5\nif x greater than 3 then print x end"
+    code = "create array numbers with [1, 2, 3]"
     tokens = lexer.tokenize(code)
     result = parser.parse(tokens)
     print(result)
