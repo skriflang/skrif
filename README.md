@@ -16,6 +16,9 @@ skrif is a revolutionary open-source programming language designed for unparalle
 ## Development Logs
 Skrif’s development progress is tracked in weekly logs located in [docs/weekly-log/]. Historical daily logs for Week 1 (May 9-15, 2025) are available in [docs/daily-log/] for reference.
 
+## File Extension
+Skrif source code uses the `.skr` file extension (e.g., `app.skr`). Save your code in `.skr` files for compilation and editor support. See [docs/specs/language.md](docs/specs/language.md) for details.
+
 ## Roadmap
 - 2025-2026: Build core compiler (JavaScript target).
 - 2026-2030: Expand to games, VR, AI/ML with WebAssembly and native support.
