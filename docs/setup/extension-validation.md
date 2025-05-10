@@ -1,7 +1,7 @@
 # .skr File Extension Validation
 
 ## Date
-May 13, 2025
+May 10, 2025
 
 ## Objective
 Validate the availability of the `.skr` file extension for Skrif, an open-source programming language.

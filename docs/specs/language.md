@@ -1,7 +1,7 @@
 # Skrif Language Specification
 
 ## Version
-0.1.0 (May 13, 2025)
+0.1.0 (May 10, 2025)
 
 ## Overview
 Skrif is an open-source programming language designed for readability, compiling to JavaScript for web, games, VR, AI, and ML applications.
