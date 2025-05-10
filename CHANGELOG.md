@@ -14,3 +14,7 @@ All notable changes to skrif will be documented in this file, following semantic
 - GitHub Project board (skrif Development) for task tracking.
 - Standardized lowercase skriflang branding for organization, skrif for language.
 - Documentation for Week 1, Days 1-2 (docs/daily-log/day-1.md, day-2.md).
+
+# Skrif Changelog
+
+All notable changes to skrif will be documented in this file, following semantic versioning.
