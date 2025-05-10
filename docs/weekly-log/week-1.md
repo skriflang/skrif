@@ -73,15 +73,22 @@ Week 1 initialized the Skrif project, defined core syntax, set up project tracki
 - Updated lexer and parser in src/lexer_test.py and src/parser_test.py to handle arrays, achieving [('array', 'numbers', [1, 2, 3])].
 - Initialized CHANGELOG.md to track skrif milestones.
 - Transitioned from daily to weekly logs, documenting progress in this file.
+- Validated and secured `.skr` file extension for Skrif source code.
+- Documented `.skr` availability in docs/setup/extension-validation.md.
+- Defined `.skr` as the official extension in docs/specs/language.md.
+- Updated README.md to guide developers to use `.skr` files.
 
 ### Challenges and Solutions
 - None reported.
+- Potential conflicts with niche .skr uses (e.g., PGP keyrings). Validated minimal overlap due to non-programming contexts (FileInfo.com).
 
 ### Key Outputs
 - Syntax Draft: docs/syntax-draft.md
 - Lexer: src/lexer_test.py
 - Parser: src/parser_test.py
 - Changelog: CHANGELOG.md
+- Extension Validation: docs/setup/extension-validation.md
+- Language Specification: docs/specs/language.md
 - Weekly Log: docs/weekly-log/week-1.md
 - Project Board: [https://github.com/users/skriflang/projects/9]
 - GitHub: [https://github.com/skriflang/skrif]
