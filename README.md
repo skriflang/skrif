@@ -11,6 +11,7 @@ skrif is a revolutionary open-source programming language designed for unparalle
 - Install: Coming soon!
 - Docs: Visit [skrif.org](https://skrif.org) (under construction).
 - Contribute: See [CONTRIBUTING.md](CONTRIBUTING.md).
+- Project Board: [https://github.com/users/skriflang/projects/9]
 
 ## Development Logs
 Skrif’s development progress is tracked in weekly logs located in [docs/weekly-log/]. Historical daily logs for Week 1 (May 9-15, 2025) are available in [docs/daily-log/] for reference.
