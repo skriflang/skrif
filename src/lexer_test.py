@@ -4,7 +4,6 @@ class SkrifLexer(Lexer):
     tokens = { SET, NAME, TO, NUMBER, IF, THEN, ELSE, GREATER, LESS, REPEAT, WHILE, DO, PRINT, RETURN }
     ignore = ' \t\n'
 
-    # Token definitions
     SET = r'set'
     TO = r'to'
     IF = r'if'
@@ -20,7 +19,6 @@ class SkrifLexer(Lexer):
     NAME = r'[a-zA-Z_][a-zA-Z0-9_]*'
     NUMBER = r'\d+'
 
-# Test the lexer
 if __name__ == "__main__":
     lexer = SkrifLexer()
     code = """
