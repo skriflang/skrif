@@ -13,8 +13,8 @@
 ## Key Outputs
 - Syntax Draft: docs/syntax-draft.md
 - Lexer Test: src/lexer_test.py
-- Project Board: [https://github.com/users/skriflang/projects/1/views/2]
-- GitHub: [github.com/skriflang/skrif](https://github.com/skriflang/skrif)
+- Project Board: [https://github.com/skriflang/skrif/projects/9]
+- GitHub: [github.com/skriflang/skrif]
 
 ## Alignment with skrif’s Vision
 Today’s tasks advanced skrif’s core design, defining a readable syntax to rival Python and setting up project tracking for community collaboration. The lexer test proves feasibility for compiling to JavaScript, supporting skrif’s initial web development focus.
