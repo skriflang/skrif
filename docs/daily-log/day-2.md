@@ -5,14 +5,21 @@
 - Tested a simple lexer for variable declarations in src/lexer_test.py using SLY.
 - Created GitHub Project board (skrif Development) with To Do, In Progress, Done columns.
 - Documented progress in this log.
+- Documenting `.skr` file extension for Skrif source code.
+
 
 ## Challenges and Solutions
 - Encountered SLY lexer error due to incorrect regex, fixed by updating NAME pattern
 - GitHub Project board permissions unclear, resolved via GitHub documentation
+- Potential conflicts with niche .skr uses (e.g., PGP keyrings). Validated minimal overlap due to non-programming contexts (FileInfo.com).
 
 ## Key Outputs
 - Syntax Draft: docs/syntax-draft.md
 - Lexer Test: src/lexer_test.py
+- Validated and secured `.skr` file extension for Skrif source code.
+- Documented `.skr` availability in docs/setup/extension-validation.md.
+- Defined `.skr` as the official extension in docs/specs/language.md.
+- Updated README.md to guide developers to use `.skr` files.
 - Project Board: [https://github.com/users/skriflang/projects/9]
 - GitHub: [github.com/skriflang/skrif]
 
