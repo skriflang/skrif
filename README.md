@@ -12,6 +12,9 @@ skrif is a revolutionary open-source programming language designed for unparalle
 - Docs: Visit [skrif.org](https://skrif.org) (under construction).
 - Contribute: See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Development Logs
+Skrif’s development progress is tracked in weekly logs located in [docs/weekly-log/]. Historical daily logs for Week 1 (May 9-15, 2025) are available in [docs/daily-log/] for reference.
+
 ## Roadmap
 - 2025-2026: Build core compiler (JavaScript target).
 - 2026-2030: Expand to games, VR, AI/ML with WebAssembly and native support.
