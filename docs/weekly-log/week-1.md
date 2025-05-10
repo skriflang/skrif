@@ -29,13 +29,19 @@ Week 1 initialized the Skrif project, defined core syntax, set up project tracki
 - Tested a simple lexer for variable declarations in src/lexer_test.py using SLY.
 - Created GitHub Project board (skrif Development) with To Do, In Progress, Done columns.
 - Documented progress in docs/daily-log/day-2.md.
+- Documenting `.skr` file extension for Skrif source code.
 
 ### Challenges and Solutions
 - Incorrect Project board URL (github.com/users/skriflang/projects/3) caused 404 error. Fixed by using repository-scoped URL (github.com/skriflang/skrif/projects/9) and ensuring public visibility.
+- Potential conflicts with niche .skr uses (e.g., PGP keyrings). Validated minimal overlap due to non-programming contexts (FileInfo.com).
 
 ### Key Outputs
 - Syntax Draft: docs/syntax-draft.md
 - Lexer Test: src/lexer_test.py
+- Validated and secured `.skr` file extension for Skrif source code.
+- Documented `.skr` availability in docs/setup/extension-validation.md.
+- Defined `.skr` as the official extension in docs/specs/language.md.
+- Updated README.md to guide developers to use `.skr` files.
 - Project Board: [https://github.com/users/skriflang/projects/9]
 - GitHub: [https://github.com/skriflang/skrif]
 ### Time Spent
@@ -73,14 +79,10 @@ Week 1 initialized the Skrif project, defined core syntax, set up project tracki
 - Updated lexer and parser in src/lexer_test.py and src/parser_test.py to handle arrays, achieving [('array', 'numbers', [1, 2, 3])].
 - Initialized CHANGELOG.md to track skrif milestones.
 - Transitioned from daily to weekly logs, documenting progress in this file.
-- Validated and secured `.skr` file extension for Skrif source code.
-- Documented `.skr` availability in docs/setup/extension-validation.md.
-- Defined `.skr` as the official extension in docs/specs/language.md.
-- Updated README.md to guide developers to use `.skr` files.
 
 ### Challenges and Solutions
 - None reported.
-- Potential conflicts with niche .skr uses (e.g., PGP keyrings). Validated minimal overlap due to non-programming contexts (FileInfo.com).
+
 
 ### Key Outputs
 - Syntax Draft: docs/syntax-draft.md
