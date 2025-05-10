@@ -42,13 +42,21 @@
 - Example: create object user with { name: "Alice", age: 25 }
 - Rationale: `create object ... with` is descriptive, mirroring JSON for web compatibility.
 
-## Next Steps
-- Update lexer/parser for arrays and objects.
-- Share with community on Discord (https://discord.gg/ctPxDGeB).
-- Explore error handling and async syntax.
+### Error Handling
+- Syntax: `try [body] catch [error] do [handler] end`
+- Example: try set x to 5 if x greater than 10 then raise "Value too large" end catch error do print error end
+- Rationale: `try ... catch ... end` is clear, aligning with JavaScript’s try-catch for web compatibility.
+
+### Arithmetic Operations
+- Syntax: `add [value1] to [value2]`, `subtract [value1] from [value2]`
+- Example: set x to 5 set y to add 3 to x # y = 8 set z to subtract 2 from y # z = 6
+- Rationale: `add ... to`, `subtract ... from` are verbose and readable, avoiding symbolic operators for clarity.
 
 ## Next Steps
+- Implement error handling in parser.
+- Explore error handling and async syntax.
+- Add multiplication/division operations.
+- Expand syntax for arrays, objects, and AI/ML constructs.
 - Update lexer to parse conditionals and loops using Python/SLY.
 - Develop a basic parser to validate conditional syntax.
 - Share with community on Discord (https://discord.gg/ctPxDGeB) for feedback.
-- Expand syntax for arrays, objects, and AI/ML constructs.
