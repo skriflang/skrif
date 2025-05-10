@@ -51,10 +51,22 @@ class SkrifParser(Parser):
     def number_list(self, p):
         return [int(p.NUMBER)] + p.number_list
 
+    @_('SET NAME TO ADD NUMBER TO NAME')
+    def statement(self, p):
+        value = int(p.NUMBER) + self.names.get(p.NAME1, 0)
+        self.names[p.NAME0] = value
+        return ('set', p.NAME0, value)
+
+    @_('SET NAME TO SUBTRACT NUMBER FROM NAME')
+    def statement(self, p):
+        value = self.names.get(p.NAME1, 0) - int(p.NUMBER)
+        self.names[p.NAME0] = value
+        return ('set', p.NAME0, value)
+
 if __name__ == "__main__":
     lexer = SkrifLexer()
     parser = SkrifParser()
-    code = "create array numbers with [1, 2, 3]"
+    code = "set x to 5\nset y to add 3 to x\nset z to subtract 2 from y"
     tokens = lexer.tokenize(code)
     result = parser.parse(tokens)
     print(result)
