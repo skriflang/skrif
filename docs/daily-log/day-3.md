@@ -15,7 +15,7 @@
 - Lexer: src/lexer_test.py
 - Parser: src/parser_test.py
 - Package: src/__init__.py
-- Project Board: [https://github.com/skriflang/skrif/projects/9]
+- Project Board: [https://github.com/users/skriflang/projects/9]
 - GitHub: [https://github.com/skriflang/skrif]
 
 ## Alignment with skrif’s Vision

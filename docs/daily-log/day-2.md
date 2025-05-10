@@ -13,7 +13,7 @@
 ## Key Outputs
 - Syntax Draft: docs/syntax-draft.md
 - Lexer Test: src/lexer_test.py
-- Project Board: [https://github.com/skriflang/skrif/projects/9]
+- Project Board: [https://github.com/users/skriflang/projects/9]
 - GitHub: [github.com/skriflang/skrif]
 
 ## Alignment with skrif’s Vision
