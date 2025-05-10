@@ -7,16 +7,32 @@ class SkrifParser(Parser):
     def __init__(self):
         self.names = {}
 
+    @_('statements')
+    def program(self, p):
+        return p.statements
+
+    @_('statement')
+    def statements(self, p):
+        return [p.statement]
+
+    @_('statement statements')
+    def statements(self, p):
+        return [p.statement] + p.statements
+
     @_('SET NAME TO NUMBER')
     def statement(self, p):
         self.names[p.NAME] = int(p.NUMBER)
         return ('set', p.NAME, p.NUMBER)
 
-    @_('IF NAME GREATER NUMBER THEN PRINT NAME END')
+    @_('IF NAME GREATER NUMBER THEN PRINT print_name END')
     def statement(self, p):
         if self.names.get(p.NAME, 0) > int(p.NUMBER):
-            return ('print', p.NAME, self.names[p.NAME])
+            return ('print', p.print_name, self.names[p.print_name])
         return None
+
+    @_('NAME')
+    def print_name(self, p):
+        return p.NAME
 
 if __name__ == "__main__":
     lexer = SkrifLexer()
